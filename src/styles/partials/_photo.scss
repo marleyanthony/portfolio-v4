@@ -1,0 +1,25 @@
+.photo {
+  background-color: $photo-color;
+  padding: 0 0 2rem;
+
+  &__header-wrapper {
+    @include section-header;
+  }
+
+  &__socials-icon {
+    @include socials-icon;
+  }
+
+  &__thumbnails-wrapper {
+    padding: 2rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__thumbnails {
+    height: 10rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,11 @@
+.mobile {
+  background-color: $mobile-color;
+
+   &__header-wrapper {
+    @include section-header;
+  }
+
+  &__socials-icon {
+    @include socials-icon;
+  }
+}

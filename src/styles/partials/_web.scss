@@ -5,16 +5,11 @@
   padding: 0 0 3rem;
 
   &__header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    color: #fff;
+   @include section-header;
   }
 
   &__socials-icon {
-    color: #fff;
-    font-size: 1.5rem;
+   @include socials-icon;
   }
 
   &__tech-wrapper {

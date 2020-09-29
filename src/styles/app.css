@@ -185,4 +185,103 @@ input {
   margin-bottom: 2rem;
   border-radius: 5px;
 }
+
+.photo {
+  background-color: #393e46;
+  padding: 0 0 2rem;
+}
+
+.photo__header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  color: #fff;
+}
+
+.photo__socials-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.photo__thumbnails-wrapper {
+  padding: 2rem 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo__thumbnails {
+  height: 10rem;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+}
+
+.mobile {
+  background-color: #00adb5;
+}
+
+.mobile__header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  color: #fff;
+}
+
+.mobile__socials-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer__content {
+  margin-bottom: 2rem;
+}
+
+.footer__content-year {
+  margin-bottom: 2rem;
+}
+
+.footer__socials-icon {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.footer__socials-icon--instagram, .footer__socials-icon--github, .footer__socials-icon--facebook {
+  margin-right: 1rem;
+}
 /*# sourceMappingURL=app.css.map */
