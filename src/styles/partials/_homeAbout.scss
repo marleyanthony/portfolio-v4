@@ -5,7 +5,16 @@
   align-items: center;
   text-align: center;
   padding: 4rem 2rem;
-  background-color: #eeeeee;
+
+  @include tablet {
+    height: 100vh;
+    width: 40vw;
+    position: fixed;
+  }
+
+  @include desktop {
+    padding: 7rem 2rem;
+  }
 
   &__img {
     height: 10rem;
@@ -39,6 +48,18 @@
     }
   }
 
+  &__btn-wrapper {
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @include desktop {
+      flex-direction: unset;
+      align-items: center;
+    }
+  }
+
   &__btn {
     background: transparent;
     border: 1px solid #000;
@@ -49,6 +70,38 @@
 
     &--hello {
       margin-right: 0.5rem;
+
+      @include tablet {
+        margin-bottom: 1.5rem;
+      }
+
+      @include desktop {
+        margin-bottom: 0;
+      }
+    }
+
+    @include tablet {
+      width: 9rem;
+    }
+  }
+
+  &__footer-content-wrapper {
+    display: none;
+
+    @include tablet {
+      display: unset;
+      margin-top: 2rem;
+    }
+
+    @include desktop {
+      margin-top: 7rem;
+      display: flex;
+    }
+  }
+
+  &__footer-content {
+    @include desktop {
+      margin-right: 1rem;
     }
   }
 }

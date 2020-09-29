@@ -4,10 +4,12 @@
 
   &__header-wrapper {
     @include section-header;
+    color: #000;
   }
 
   &__socials-icon {
     @include socials-icon;
+    color: #000;
   }
 
   &__thumbnails-wrapper {

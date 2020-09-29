@@ -1,3 +1,12 @@
 .home-page {
   // display: flex;
+  @include tablet {
+    display: flex;
+  }
+
+  &__about-wrapper {
+    @include tablet {
+      min-width: 40vw;
+    }
+  }
 }

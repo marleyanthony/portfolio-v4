@@ -5,6 +5,10 @@
   text-align: center;
   padding: 2rem;
 
+  @include tablet {
+    display: none;
+  }
+
   &__content {
     margin-bottom: 2rem;
   }

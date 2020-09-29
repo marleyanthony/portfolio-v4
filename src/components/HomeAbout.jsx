@@ -33,6 +33,10 @@ const HomeAbout = () => {
           <button className="home-about__btn home-about__btn--hello">Say Hello</button>
           <button className="home-about__btn home-about__btn--resume">My Resume</button>
         </div>
+        <div className="home-about__footer-content-wrapper">
+          <h1 className="home-about__footer-content">Made with <span role="img" aria-label="heart">♥️</span> by Me</h1>
+          <h2 className="home-about__footer-content-year">&copy;Twenty Twenty</h2>
+        </div>
       </div>
     </>
   )

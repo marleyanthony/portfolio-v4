@@ -8,11 +8,15 @@ import Footer from './Footer';
 const HomePage = () => {
   return (
     <div className="home-page">
-      <HomeAbout />
-      <Web />
-      <Photo />
-      <Mobile />
-      <Footer />
+      <div className="home-page__about-wrapper">
+        <HomeAbout />
+      </div>
+      <div className="home-page__scroll-wrapper">
+        <Web />
+        <Photo />
+        <Mobile />
+        <Footer />
+      </div>
     </div>
   )
 }

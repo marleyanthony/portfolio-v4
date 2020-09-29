@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__content-wrapper">
-        <h1 className="footer__content">Made with ♥️ by Me</h1>
+        <h1 className="footer__content">Made with <span role="img" aria-label="heart">♥️</span> by Me</h1>
         <h2 className="footer__content-year">Twenty Twenty</h2>
       </div>
       <div className="footer__socials-wrapper">

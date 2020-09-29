@@ -4,7 +4,7 @@ const Mobile = () => {
   return (
     <div className="mobile">
       <div className="mobile__header-wrapper">
-        <h1 className="mobile__header">.001 | Mobile Development</h1>
+        <h1 className="mobile__header">.003 | Mobile Development</h1>
         <a href="https://github.com/marleyanthony" target="_blank" className="mobile__socials-icon" rel="noopener noreferrer">
           <i className="fab fa-instagram"></i>
         </a>
