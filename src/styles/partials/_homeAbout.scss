@@ -1,10 +1,11 @@
 .home-about {
-  height: 75vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 4rem 2rem;
+  background-color: #eeeeee;
 
   &__img {
     height: 10rem;

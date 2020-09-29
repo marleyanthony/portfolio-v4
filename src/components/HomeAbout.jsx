@@ -1,12 +1,15 @@
 import React from 'react';
 import me from '../assets/marley.jpg';
+import { Link } from 'react-router-dom';
 
 const HomeAbout = () => {
   return (
     <>
       <div className="home-about">
         <div className="home-about__header-wrapper">
-          <img src={me} alt="Marley" className="home-about__img" />
+          <Link to="/about">
+            <img src={me} alt="Marley" className="home-about__img" />
+          </Link>
           <h1 className="home-about__header">I'm Marley.</h1>
           <p className="home-about__info">
             Vancouver based web developer and photographer with a passion for the outdoors.
