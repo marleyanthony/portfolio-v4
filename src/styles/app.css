@@ -146,6 +146,7 @@ input {
 
 .home-about__btn--hello {
   margin-right: 0.5rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -158,6 +159,11 @@ input {
   .home-about__btn--hello {
     margin-bottom: 0;
   }
+}
+
+.home-about__btn--resume {
+  text-decoration: none;
+  color: #000;
 }
 
 @media (min-width: 768px) {
@@ -207,7 +213,7 @@ input {
 }
 
 .web {
-  background-color: #f38181;
+  background-color: #393e46;
   text-align: center;
   padding: 0 0 3rem;
 }
@@ -282,7 +288,7 @@ input {
 }
 
 .photo {
-  background-color: #fff;
+  background-color: #393e46;
   padding: 0 0 2rem;
 }
 
@@ -328,7 +334,7 @@ input {
 }
 
 .mobile {
-  background-color: #00adb5;
+  background-color: #393e46;
 }
 
 .mobile__header-wrapper {
