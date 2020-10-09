@@ -1,5 +1,5 @@
 import React from 'react';
-import me from '../assets/marley.jpg';
+import me from '../assets/avatars/marley.jpg';
 import { Link } from 'react-router-dom';
 
 const HomeAbout = () => {
@@ -31,7 +31,8 @@ const HomeAbout = () => {
         </div>
         <div className="home-about__btn-wrapper">
           <button className="home-about__btn home-about__btn--hello">Say Hello</button>
-          <button className="home-about__btn home-about__btn--resume">My Resume</button>
+          {/* <button className="home-about__btn home-about__btn--resume">My Resume</button> */}
+          <a href="resume.pdf" className="home-about__btn" download>Resume</a>
         </div>
         <div className="home-about__footer-content-wrapper">
           <h1 className="home-about__footer-content">Made with <span role="img" aria-label="heart">♥️</span> by Me</h1>
